@@ -1,4 +1,4 @@
-@import url("/src/css/global.css");
+@import url("/src/css/variables.css");
 
 .login-wrapper {
   background-color: var(--gray-100);

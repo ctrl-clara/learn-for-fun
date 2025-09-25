@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn for Fun | Home</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Raleway:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/global.css" />
+    <link rel="stylesheet" href="/src/css/home.css" />
+  </head>
+
+  <body>
+    <main class="login-wrapper">
+      <section class="login-container">
+        <div class="logo-container">
+          <img src="/src/images/logo.png" width="96" alt="Learn for fun logo" />
+        </div>
+
+        <h1 class="title-1">Login</h1>
+
+        <form action="/home.html">
+          <label for="username" class="sr-only">Username</label>
+          <input
+            id="username"
+            type="text"
+            class="input-field"
+            placeholder="Username"
+            autofocus
+          />
+
+          <button type="submit" class="primary-button" disabled>Login</button>
+        </form>
+      </section>
+
+      <div class="login-banner" />
+    </main>
+
+    <script type="module" src="/src/js/main.js"></script>
+  </body>
+</html>
