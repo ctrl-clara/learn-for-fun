@@ -1,0 +1,21 @@
+header {
+  height: 4.375rem;
+  border-bottom: 1px solid var(--gray-300);
+
+  .header-wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 0.75rem;
+  }
+
+  .avatar {
+    background-color: var(--blue-700);
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+  }
+}

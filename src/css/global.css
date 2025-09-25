@@ -1,4 +1,10 @@
 @import url("/src/css/variables.css");
+@import url("/src/css/utilities.css");
+
+@import url("/src/css/components/text.css");
+@import url("/src/css/components/header.css");
+@import url("/src/css/components/sidebar.css");
+@import url("/src/css/components/buttons.css");
 
 * {
   margin: 0;
@@ -11,6 +17,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
   background-color: var(--gray-50);
+  font-family: "Raleway", sans-serif;
 }
 
 img {
@@ -29,25 +36,6 @@ a {
   font-family: "Raleway", sans-serif;
 }
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-.title-1 {
-  font-family: "Darumadrop One", sans-serif;
-  font-size: 3rem;
-  font-weight: 400;
-  color: var(--black);
-}
-
 .input-field {
   height: 3rem;
   padding: 0 1rem;
@@ -61,72 +49,5 @@ a {
   &:focus,
   &:active {
     outline: 2px solid var(--blue-500);
-  }
-}
-
-.primary-button {
-  display: grid;
-  place-items: center;
-  height: 3rem;
-  background-color: var(--blue-500);
-  color: var(--black);
-  border: none;
-  border-radius: 3rem;
-  font-family: "Raleway", sans-serif;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-
-  &:disabled {
-    background-color: var(--gray-300);
-    cursor: not-allowed;
-  }
-}
-
-.sidebar {
-  background-color: var(--gray-100);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-block: 2.25rem;
-  width: 100%;
-  border-right: 1px solid var(--gray-300);
-
-  nav {
-    width: 100%;
-  }
-
-  ul {
-    margin-top: 1.5rem;
-    width: 100%;
-    padding-inline: 0.5rem;
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-
-    li {
-      width: 100%;
-
-      a {
-        padding: 0.5rem 0.75rem;
-        display: flex;
-        align-items: center;
-        gap: 0.75rem;
-        font-weight: 700;
-        border-radius: 0.25rem;
-        transition: all 0.4s;
-
-        &:hover {
-          background-color: var(--gray-250);
-        }
-
-        &.active {
-          border: 1px solid var(--blue-500);
-          background-color: var(--gray-50);
-        }
-      }
-    }
   }
 }

@@ -1,0 +1,42 @@
+.title-1 {
+  font-family: "Darumadrop One", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+  color: var(--black);
+}
+
+.title-2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--gray-700);
+}
+
+.body-lg {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--gray-700);
+}
+
+.body-md {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--gray-700);
+}
+
+.body-md-bold {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gray-700);
+}
+
+.body-sm {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--gray-400);
+}
+
+.body-xs {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-700);
+}

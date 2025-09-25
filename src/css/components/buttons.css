@@ -1,0 +1,20 @@
+.primary-button {
+  display: grid;
+  place-items: center;
+  height: 3rem;
+  background-color: var(--blue-500);
+  color: var(--black);
+  border: none;
+  border-radius: 3rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+
+  &:disabled {
+    background-color: var(--gray-300);
+    cursor: not-allowed;
+  }
+}
