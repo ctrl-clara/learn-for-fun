@@ -1,1 +1,8 @@
 @import url("/src/css/variables.css");
+
+.home {
+  min-height: 100vh;
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: 232px 1fr;
+}

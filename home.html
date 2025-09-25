@@ -17,30 +17,71 @@
   </head>
 
   <body>
-    <main class="login-wrapper">
-      <section class="login-container">
-        <div class="logo-container">
-          <img src="/src/images/logo.png" width="96" alt="Learn for fun logo" />
-        </div>
-
-        <h1 class="title-1">Login</h1>
-
-        <form action="/home.html">
-          <label for="username" class="sr-only">Username</label>
-          <input
-            id="username"
-            type="text"
-            class="input-field"
-            placeholder="Username"
-            autofocus
+    <div class="home">
+      <aside class="sidebar">
+        <a href="/home.html" class="logo">
+          <img
+            src="/src/images/logo.png"
+            width="120"
+            alt="Learn for Fun logo"
           />
+        </a>
 
-          <button type="submit" class="primary-button" disabled>Login</button>
-        </form>
-      </section>
+        <nav aria-label="Main navigation">
+          <ul>
+            <li>
+              <a href="/explore.html" class="active" data-link="explore">
+                <img
+                  src="/src/icons/house.svg"
+                  width="24"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <span>Explore</span>
+              </a>
+            </li>
+            <li>
+              <a href="/quizzes.html" data-link="quizzes">
+                <img
+                  src="/src/icons/house.svg"
+                  width="24"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <span>Quizzes</span>
+              </a>
+            </li>
+            <li>
+              <a href="/flashcards.html" data-link="flashcards">
+                <img
+                  src="/src/icons/house.svg"
+                  width="24"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <span>Flashcards</span>
+              </a>
+            </li>
+            <li>
+              <a href="/memory-game.html" data-link="memory-game">
+                <img
+                  src="/src/icons/house.svg"
+                  width="24"
+                  alt=""
+                  aria-hidden="true"
+                />
+                <span>Memory Game</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
 
-      <div class="login-banner" />
-    </main>
+      <main>
+        <h1>Welcome</h1>
+        <p>Hi</p>
+      </main>
+    </div>
 
     <script type="module" src="/src/js/main.js"></script>
   </body>
