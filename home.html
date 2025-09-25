@@ -17,14 +17,21 @@
   </head>
 
   <body>
-    <div class="home">
+    <div class="page-wrapper">
       <aside class="sidebar">
         <a href="/home.html" class="logo">
-          <img
-            src="/src/images/logo.png"
-            width="120"
-            alt="Learn for Fun logo"
-          />
+          <picture>
+            <source
+              srcset="/src/images/logo-small.png"
+              media="(width <= 640px)"
+              width="40"
+            />
+            <img
+              src="/src/images/logo.png"
+              width="120"
+              alt="Learn for Fun logo"
+            />
+          </picture>
         </a>
 
         <nav aria-label="Main navigation">
@@ -40,10 +47,11 @@
                 <span>Explore</span>
               </a>
             </li>
+
             <li>
               <a href="/quizzes.html" data-link="quizzes">
                 <img
-                  src="/src/icons/house.svg"
+                  src="/src/icons/circle-question.svg"
                   width="24"
                   alt=""
                   aria-hidden="true"
@@ -51,10 +59,11 @@
                 <span>Quizzes</span>
               </a>
             </li>
+
             <li>
               <a href="/flashcards.html" data-link="flashcards">
                 <img
-                  src="/src/icons/house.svg"
+                  src="/src/icons/cards.svg"
                   width="24"
                   alt=""
                   aria-hidden="true"
@@ -62,10 +71,11 @@
                 <span>Flashcards</span>
               </a>
             </li>
+
             <li>
               <a href="/memory-game.html" data-link="memory-game">
                 <img
-                  src="/src/icons/house.svg"
+                  src="/src/icons/puzzle.svg"
                   width="24"
                   alt=""
                   aria-hidden="true"
@@ -77,10 +87,111 @@
         </nav>
       </aside>
 
-      <main>
-        <h1>Welcome</h1>
-        <p>Hi</p>
-      </main>
+      <div>
+        <header>
+          <div class="header-wrapper container">
+            <div class="avatar body-lg">C</div>
+            <span class="body-md-bold">clarinha</span>
+          </div>
+        </header>
+
+        <main>
+          <div class="container page-container">
+            <h1 class="title-1">Hello! 🇬🇧</h1>
+
+            <div class="content-wrapper">
+              <div class="title-wrapper">
+                <img src="/src/icons/chart-line.svg" width="24" alt="" />
+                <h2 class="title-2">Trending activities</h2>
+              </div>
+
+              <div class="cards-wrapper">
+                <a
+                  href="/introduce-myself.html"
+                  class="card"
+                  title="Go to Lesson 1: Introducing Myself"
+                >
+                  <img
+                    src="https://img.freepik.com/premium-vector/black-girl-smiling-waving-hand-little-girl-portrait-circular-shape_254685-1167.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-text">
+                    <span class="tag">Lesson 1</span>
+                    <p class="body-md-bold">Lesson 1: Introducing Myself</p>
+                    <span class="body-sm">8 questions</span>
+                  </div>
+                </a>
+
+                <a href="/introduce-myself.html" class="card">
+                  <img
+                    src="https://img.freepik.com/premium-vector/black-girl-smiling-waving-hand-little-girl-portrait-circular-shape_254685-1167.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-text">
+                    <span class="tag">Lesson 1</span>
+                    <p class="body-md-bold">Lesson 1: Introducing Myself</p>
+                    <span class="body-sm">8 questions</span>
+                  </div>
+                </a>
+
+                <a href="/introduce-myself.html" class="card">
+                  <img
+                    src="https://img.freepik.com/premium-vector/black-girl-smiling-waving-hand-little-girl-portrait-circular-shape_254685-1167.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-text">
+                    <span class="tag">Lesson 1</span>
+                    <p class="body-md-bold">Lesson 1: Introducing Myself</p>
+                    <span class="body-sm">8 questions</span>
+                  </div>
+                </a>
+
+                <a href="/introduce-myself.html" class="card">
+                  <img
+                    src="https://img.freepik.com/premium-vector/black-girl-smiling-waving-hand-little-girl-portrait-circular-shape_254685-1167.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-text">
+                    <span class="tag">Lesson 1</span>
+                    <p class="body-md-bold">Lesson 1: Introducing Myself</p>
+                    <span class="body-sm">8 questions</span>
+                  </div>
+                </a>
+
+                <a href="/introduce-myself.html" class="card">
+                  <img
+                    src="https://img.freepik.com/premium-vector/black-girl-smiling-waving-hand-little-girl-portrait-circular-shape_254685-1167.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-text">
+                    <span class="tag">Lesson 1</span>
+                    <p class="body-md-bold">Lesson 1: Introducing Myself</p>
+                    <span class="body-sm">8 questions</span>
+                  </div>
+                </a>
+
+                <a href="/introduce-myself.html" class="card">
+                  <img
+                    src="https://img.freepik.com/premium-vector/black-girl-smiling-waving-hand-little-girl-portrait-circular-shape_254685-1167.jpg"
+                    alt=""
+                  />
+
+                  <div class="card-text">
+                    <span class="tag">Lesson 1</span>
+                    <p class="body-md-bold">Lesson 1: Introducing Myself</p>
+                    <span class="body-sm">8 questions</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
     </div>
 
     <script type="module" src="/src/js/main.js"></script>
